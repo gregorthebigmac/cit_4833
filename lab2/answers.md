@@ -12,11 +12,13 @@
                 user account.
 4. What is the length of the largest frame in this trace file?  
     **A.** Two packets tied for largest:
-        <pre><code>Frame 12: 1428<br>Frame 15: 1428</code></pre>
+        <pre><code>Frame 12: 1428
+        Frame 15: 1428</code></pre>
 5. What are the different kinds of protocols seen in the Protocol column?  
     **A.** HTTP, TCP
 6. What responses are sent by the HTTP server?  
     **A.** It looks like *all* of the responses from the HTTP server are
         <pre><code>HTTP/1.1 302 Found</code></pre>
+        I found 5 of these responses in frames 6, 8, 10, 13, 16
 7. Is there any IPv6 traffic in this trace file?  
     **A.** I wasn't able to find any.
